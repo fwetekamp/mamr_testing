@@ -139,10 +139,10 @@
 		1FE1FD1F1D89A5510005CA18 = {
 			isa = PBXGroup;
 			children = (
+				1FE1FD631D89A5520005CA18 /* mamr WatchKit Extension */,
 				1FE1FD2A1D89A5510005CA18 /* mamr */,
 				1FE1FD3F1D89A5520005CA18 /* mamrTests */,
 				1FE1FD4A1D89A5520005CA18 /* mamrUITests */,
-				1FE1FD631D89A5520005CA18 /* mamr WatchKit Extension */,
 				1FE1FD291D89A5510005CA18 /* Products */,
 			);
 			sourceTree = "<group>";
