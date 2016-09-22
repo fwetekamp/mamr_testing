@@ -22,6 +22,7 @@
 		1FE1FD691D89A5520005CA18 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1FD681D89A5520005CA18 /* ExtensionDelegate.swift */; };
 		1FE1FD6B1D89A5520005CA18 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1FD6A1D89A5520005CA18 /* NotificationController.swift */; };
 		1FE1FD6D1D89A5520005CA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE1FD6C1D89A5520005CA18 /* Assets.xcassets */; };
+		1FE1FD831D89AAA00005CA18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE1FD821D89AAA00005CA18 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		1FE1FD6A1D89A5520005CA18 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		1FE1FD6C1D89A5520005CA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE1FD6E1D89A5520005CA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE1FD821D89AAA00005CA18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 				1FE1FD321D89A5510005CA18 /* Assets.xcassets */,
 				1FE1FD341D89A5510005CA18 /* LaunchScreen.storyboard */,
 				1FE1FD371D89A5510005CA18 /* Info.plist */,
+				1FE1FD821D89AAA00005CA18 /* Images.xcassets */,
 			);
 			path = mamr;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FE1FD361D89A5510005CA18 /* LaunchScreen.storyboard in Resources */,
+				1FE1FD831D89AAA00005CA18 /* Images.xcassets in Resources */,
 				1FE1FD331D89A5510005CA18 /* Assets.xcassets in Resources */,
 				1FE1FD311D89A5510005CA18 /* Main.storyboard in Resources */,
 			);
@@ -668,7 +672,7 @@
 		1FE1FD7A1D89A5520005CA18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = mamr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fabian.wetekamp.mamr;
@@ -680,7 +684,7 @@
 		1FE1FD7B1D89A5520005CA18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = mamr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fabian.wetekamp.mamr;
@@ -762,6 +766,7 @@
 				1FE1FD731D89A5520005CA18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FE1FD751D89A5520005CA18 /* Build configuration list for PBXNativeTarget "mamr WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -770,6 +775,7 @@
 				1FE1FD771D89A5520005CA18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FE1FD791D89A5520005CA18 /* Build configuration list for PBXNativeTarget "mamr" */ = {
 			isa = XCConfigurationList;
@@ -778,6 +784,7 @@
 				1FE1FD7B1D89A5520005CA18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FE1FD7C1D89A5520005CA18 /* Build configuration list for PBXNativeTarget "mamrTests" */ = {
 			isa = XCConfigurationList;
@@ -786,6 +793,7 @@
 				1FE1FD7E1D89A5520005CA18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FE1FD7F1D89A5520005CA18 /* Build configuration list for PBXNativeTarget "mamrUITests" */ = {
 			isa = XCConfigurationList;
@@ -794,6 +802,7 @@
 				1FE1FD811D89A5520005CA18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
