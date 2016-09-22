@@ -15,8 +15,6 @@
 		1FE1FD411D89A5520005CA18 /* mamrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1FD401D89A5520005CA18 /* mamrTests.swift */; };
 		1FE1FD4C1D89A5520005CA18 /* mamrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1FD4B1D89A5520005CA18 /* mamrUITests.swift */; };
 		1FE1FD511D89A5520005CA18 /* mamr WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1FE1FD501D89A5520005CA18 /* mamr WatchKit App.app */; };
-		1FE1FD571D89A5520005CA18 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE1FD551D89A5520005CA18 /* Interface.storyboard */; };
-		1FE1FD591D89A5520005CA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE1FD581D89A5520005CA18 /* Assets.xcassets */; };
 		1FE1FD601D89A5520005CA18 /* mamr WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FE1FD5F1D89A5520005CA18 /* mamr WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1FE1FD671D89A5520005CA18 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1FD661D89A5520005CA18 /* InterfaceController.swift */; };
 		1FE1FD691D89A5520005CA18 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1FD681D89A5520005CA18 /* ExtensionDelegate.swift */; };
@@ -96,9 +94,6 @@
 		1FE1FD4B1D89A5520005CA18 /* mamrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mamrUITests.swift; sourceTree = "<group>"; };
 		1FE1FD4D1D89A5520005CA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FE1FD501D89A5520005CA18 /* mamr WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mamr WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FE1FD561D89A5520005CA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		1FE1FD581D89A5520005CA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1FE1FD5A1D89A5520005CA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FE1FD5F1D89A5520005CA18 /* mamr WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "mamr WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE1FD651D89A5520005CA18 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		1FE1FD661D89A5520005CA18 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
@@ -147,7 +142,6 @@
 				1FE1FD2A1D89A5510005CA18 /* mamr */,
 				1FE1FD3F1D89A5520005CA18 /* mamrTests */,
 				1FE1FD4A1D89A5520005CA18 /* mamrUITests */,
-				1FE1FD541D89A5520005CA18 /* mamr WatchKit App */,
 				1FE1FD631D89A5520005CA18 /* mamr WatchKit Extension */,
 				1FE1FD291D89A5510005CA18 /* Products */,
 			);
@@ -195,16 +189,6 @@
 				1FE1FD4D1D89A5520005CA18 /* Info.plist */,
 			);
 			path = mamrUITests;
-			sourceTree = "<group>";
-		};
-		1FE1FD541D89A5520005CA18 /* mamr WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				1FE1FD551D89A5520005CA18 /* Interface.storyboard */,
-				1FE1FD581D89A5520005CA18 /* Assets.xcassets */,
-				1FE1FD5A1D89A5520005CA18 /* Info.plist */,
-			);
-			path = "mamr WatchKit App";
 			sourceTree = "<group>";
 		};
 		1FE1FD631D89A5520005CA18 /* mamr WatchKit Extension */ = {
@@ -406,8 +390,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FE1FD591D89A5520005CA18 /* Assets.xcassets in Resources */,
-				1FE1FD571D89A5520005CA18 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,14 +479,6 @@
 				1FE1FD351D89A5510005CA18 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		1FE1FD551D89A5520005CA18 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FE1FD561D89A5520005CA18 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -672,6 +646,7 @@
 		1FE1FD7A1D89A5520005CA18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = mamr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -684,6 +659,7 @@
 		1FE1FD7B1D89A5520005CA18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = mamr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
